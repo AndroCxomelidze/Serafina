@@ -1,0 +1,101 @@
+body {
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f8f9fc, #e9f2ff);
+    color: #2a2a2a;
+    line-height: 1.8;
+
+}
+
+.hero-page {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #b2b2b2e1;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.4);
+}
+
+header h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #ffd700; /* ოქროსფერი */
+    text-shadow: 2px 2px 8px rgba(255, 215, 0, 0.4);
+
+}
+
+
+.hero-video {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.hero-video video {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 3px solid #d4af37; /* ოქროსფერი საზღვარი */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.hero-info, .hero-abilities, .hero-powers {
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.95); /* მოთეთრო ფონტი */
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #e0e8f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #d4af37; /* ცისფერი */
+    text-shadow: 1px 1px 5px rgb(196, 196, 196);
+}
+
+p, ul {
+    font-size: 0.9rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+    padding: 6px;
+    background: #f0f8ff; /* ღია ცისფერი ელფერი */
+    border-radius: 5px;
+    color: #2a4d69;
+    border-left: 4px solid #d4af37; /* ცისფერი საზღვარი */
+}
+
+/* iPhone SE Specific Media Query */
+@media (max-width: 375px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-video video {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    p, ul li {
+        font-size: 0.85rem;
+    }
+
+    .hero-info, .hero-abilities, .hero-powers {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+}
+
